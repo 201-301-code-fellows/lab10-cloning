@@ -29,6 +29,8 @@ header {
   display: flex;
 }
 h2 {
+  font-family: 'Yellowtail', cursive;
+
   font-size: 2.7rem;
 }
 .social {
@@ -70,6 +72,7 @@ figure>img{
 }
 
 .paper {
+  font-family: 'Handlee', cursive;
   background-image: url('../img/list-bg.png');
   background-position: center;
   background-repeat: no-repeat;
@@ -106,6 +109,10 @@ article > section {
 
 .listitem {
   display: flex;
+}
+
+.checked {
+  text-decoration: line-through;
 }
 
 li {
@@ -145,12 +152,35 @@ button{
 }
 
 footer{
+  text-align: center;
   border-top: solid gray 1px;
+  width: 100%;
   
 }
 
 footer>img{
+  
   position: relative;
-  left: 50%;
   bottom: 18px;
 }
+/*
+footer>p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aqua;
+  margin: auto;
+  width: 100%;
+}
+*/
+.bottomFooter {
+  text-align: center;
+color: gray;
+}
+
+#bottomF{
+  padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+
