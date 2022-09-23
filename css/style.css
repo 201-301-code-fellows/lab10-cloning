@@ -1,0 +1,75 @@
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+}
+h2 {
+  font-size: 2.7rem;
+}
+.social {
+  display: flex;
+}
+
+.title > p {
+  font-size: 1rem;
+  color: grey;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.4rem;
+}
+
+.subtext {
+  width: 100%;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.print {
+  display: flex;
+}
+
+.printicon {
+  display: flex;
+}
+
+.firstgroup {
+  margin-right: 1rem;
+}
+
+
+
+.paper {
+  background-image: url('../img/list-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ul{
+  display: flex;
+}
+
+.leftside{
+  display: flex;
+  flex-direction: column;
+}
+
+.rightside{
+  display: flex;
+  flex-direction: column;
+}
+
+article>section{
+  display: flex;
+}
+
