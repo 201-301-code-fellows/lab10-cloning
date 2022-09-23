@@ -3,11 +3,28 @@ html {
   font-family: sans-serif;
 }
 
+
+body {
+  margin: 0 20vw;
+  justify-content: center;
+}
+
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
+
+.horizontalRules {
+  
+  height: 4px;
+  background-image: url('../img/hr-img.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 100%;
+}
+
 .logo {
   display: flex;
 }
@@ -24,6 +41,7 @@ h2 {
 }
 
 h1 {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 3.4rem;
 }
@@ -43,33 +61,96 @@ h1 {
   display: flex;
 }
 
+figure>img{
+  width:100%
+}
+
 .firstgroup {
   margin-right: 1rem;
 }
-
-
 
 .paper {
   background-image: url('../img/list-bg.png');
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.ul{
   display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
-.leftside{
-  display: flex;
-  flex-direction: column;
-}
-
-.rightside{
+.leftside {
   display: flex;
   flex-direction: column;
 }
 
-article>section{
+.rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  justify-content: flex-end;
+}
+
+article > section {
+  
+  margin: 20px -6px 0 0;
+  font-size: 1.3rem;
+  font-family: serif;
+  
+}
+
+.article {
+
+  height: 20rem;
+}
+
+.listitem {
   display: flex;
 }
 
+li {
+  display: flex;
+  align-items: center;
+}
+
+.comment{
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.commentContent{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+h4{
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+#profile{
+  width: 100%;
+}
+
+
+button{
+  background-color: rgb(203, 72, 72);
+  color: white;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+
+footer{
+  border-top: solid gray 1px;
+  
+}
+
+footer>img{
+  position: relative;
+  left: 50%;
+  bottom: 18px;
+}
